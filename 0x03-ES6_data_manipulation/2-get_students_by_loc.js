@@ -9,9 +9,9 @@
  * @author BLESSING JOY ONI <https://github.com/Onibless>
  * @returns
  */ 
-export default function getStudentsByLocation(students, city){
-	if (students instanceof Array){
-		return students.filter((student) => student.location === city);
-	}
-	return[];
+export default function getStudentsByLocation(students, city) {
+  if (students instanceof Array) {
+    return students.filter((student) => student.location === city);
+  }
+  return [];
 }

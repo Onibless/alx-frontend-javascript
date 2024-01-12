@@ -8,9 +8,9 @@
  * @author Blessing Joy Oni <https://github.com/Onibless>
  * @returns
  */
-export default function getListStudentIds(students){
-	if (students instanceof Array){
-		return map.students((student) => student.id);
-	}
-	return[];
+export default function getListStudentIds(students) {
+  if (students instanceof Array) {
+    return students.map((student) => student.id);
+  }
+  return [];
 }
